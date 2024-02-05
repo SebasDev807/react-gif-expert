@@ -1,0 +1,98 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #15141B;
+  color: #000;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  background-color: white;
+  border: 1px solid #94d786;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+
+
+/* Estilo para el input cuando está enfocado */
+input:focus {
+  border-color: #CE7DD7;
+  border-width: 2px;
+
+}
+
+button {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #6F5EE2;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3f3580;
+}
+
+li{
+  color: white;
+}
+
+h1 {
+  color: #39BA81;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: #CE7DD7; ;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
